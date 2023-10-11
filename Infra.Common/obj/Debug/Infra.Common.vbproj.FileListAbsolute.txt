@@ -1,0 +1,18 @@
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.pdb
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.Resources.resources
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.vbproj.GenerateResource.Cache
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.pdb
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.dll
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.pdb
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\bin\Debug\Infra.Common.xml
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.vbproj.AssemblyReference.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.Resources.resources
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.vbproj.GenerateResource.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.vbproj.CoreCompileInputs.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.dll
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.xml
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Infra.Common\obj\Debug\Infra.Common.pdb

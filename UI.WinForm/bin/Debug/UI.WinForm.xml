@@ -1,0 +1,103 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UI.WinForm
+</name>
+</assembly>
+<members>
+<member name="T:UI.WinForm.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.btnClose">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.btnMaximize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.btnMinimize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.btnRestore">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.CloseDark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.DefaultUserProfile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.deleteIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.editIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:UI.WinForm.My.Resources.Resources.MinimizeDark">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:UI.WinForm.BaseFixedForm.dragControl">
+ <summary>
+ Formulario prediseñado con barra de titulo, herede esta clase si desea 
+ crear formularios fijos (Sin cambio de tamaño).
+ </summary>
+ 
+</member>
+<member name="F:UI.WinForm.BaseMainForm.tolerance">
+ <summary>
+ Esta clase hereda de la clase Form de la librería de windows form.
+ Esta clase es responsable de implementar el método de redimencionamiento
+ (Cambiar de tamaño el formualario desde la esquina inferior derecha), Minimizar, 
+ Cerrar, Maximizar y restaurar.
+ </summary>
+</member>
+<member name="F:UI.WinForm.FormUserMaintenance.domainModel">
+ <summary>
+ Esta clase hereda de la clase BaseFixedForm.
+ </summary>
+</member>
+<member name="F:UI.WinForm.LoginForm.usernamePlaceholder">
+ <summary>
+ Esta clase hereda de la clase BaseFixedForm.
+ </summary>
+ 
+</member>
+<member name="F:UI.WinForm.MainForm.dragControl">
+ <summary>
+ Esta clase hereda de clase BaseMainForm.
+ </summary>
+ 
+</member>
+</members>
+</doc>

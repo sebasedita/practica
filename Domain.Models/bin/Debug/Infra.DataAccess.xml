@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Infra.DataAccess
+</name>
+</assembly>
+<members>
+<member name="F:Infra.DataAccess.Repository.connectionString">
+	<summary>
+ Esta clase abstracta es responsable de establecer la cadena de conexion
+ y obtener la conexion a SQL.
+ </summary>
+</member><member name="P:Infra.DataAccess.BulkTransaction.CommandText">
+	<summary>
+ Esta clase simplemente es responsable de almacenar un comando de texto y una lista de parámetros
+ para el comando de texto (Transact-SQL o Procedimiento almacenado) para realizar transacciones masivas.
+ Para mas detalles ver el método BulkExecuteNonQuery() de la clase MasterRepository.
+ </summary>
+</member><member name="P:Infra.DataAccess.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Infra.DataAccess.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Infra.DataAccess.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Infra.DataAccess.UserRepository.Login(System.String,System.String)">
+	<summary>
+Esta clase hereda de clase MasterRepository e implementa la interfaz IUserRepository.
+Aquí se realiza las diferentes transacciones y consultas a la base de datos de la entidad
+usuario.
+</summary>
+</member><member name="F:Infra.DataAccess.MasterRepository.dataTable">
+	<summary>
+ Esta clase abstracta  hereda de la clase Repository e implementa la interfaz IMasterRepository.
+ Esta clase es una clase base para todos los repositorios de entidad y es reponsable de realizar
+ cualquier consulta y transaccion a la base de datos SQL Server, para ello implementa 3 métodos: 
+ 
+ -Método ExecuteNonQuery(...)-&gt; Ejecuta comandos de transacción (Create, Update y Delete).
+ -Método BulkExecuteNonQuery(...)-&gt; Ejecuta comandos de transacción (Create, Update y Delete) para
+ realizar transacciones masivas afectando a multiples filas.
+ -Método ExecuteReader(...)-&gt; Ejecuta comandos de consulta (Select).
+ 
+ Estos métodos tienen 2 o mas sobrecargas ( Es considerado como el pilar de polimorfismo de 
+ la programación orientada a objetos.)
+ </summary>
+</member>
+</members>
+</doc>

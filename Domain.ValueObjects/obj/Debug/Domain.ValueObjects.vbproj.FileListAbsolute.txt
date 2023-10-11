@@ -1,0 +1,18 @@
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.Resources.resources
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.vbproj.GenerateResource.Cache
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.dll
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.pdb
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\bin\Debug\Domain.ValueObjects.xml
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.vbproj.AssemblyReference.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.Resources.resources
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.vbproj.GenerateResource.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.vbproj.CoreCompileInputs.cache
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.dll
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.xml
+C:\Users\SEBAS\Desktop\Español\LayeredFullLogin-ES-VB-SQL\Domain.ValueObjects\obj\Debug\Domain.ValueObjects.pdb

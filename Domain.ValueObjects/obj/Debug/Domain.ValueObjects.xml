@@ -1,0 +1,42 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Domain.ValueObjects
+</name>
+</assembly>
+<members>
+<member name="T:Domain.ValueObjects.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:Domain.ValueObjects.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:Domain.ValueObjects.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:Domain.ValueObjects.Address.Street">
+ <summary>
+ Los objetos de valor son objetos que no tienen identidad o no son entidades específicos del dominio.
+ Por ejemplo el objeto dirección.
+ Mas información:
+ https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects
+ </summary>
+</member>
+<member name="M:Domain.ValueObjects.BaseValueObject.EqualOperator(Domain.ValueObjects.BaseValueObject,Domain.ValueObjects.BaseValueObject)">
+ <summary>
+ Clase abstracta base que implementa métodos básicos para otros objetos de valor.
+ Ejemplo basado en la documentación de Microsoft:
+ https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects
+ </summary>
+ 
+</member>
+</members>
+</doc>

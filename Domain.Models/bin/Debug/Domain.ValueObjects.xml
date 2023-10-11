@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Domain.ValueObjects
+</name>
+</assembly>
+<members>
+<member name="M:Domain.ValueObjects.BaseValueObject.EqualOperator(Domain.ValueObjects.BaseValueObject,Domain.ValueObjects.BaseValueObject)">
+	<summary>
+ Clase abstracta base que implementa métodos básicos para otros objetos de valor.
+ Ejemplo basado en la documentación de Microsoft:
+ https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects
+ </summary>
+</member><member name="P:Domain.ValueObjects.Address.Street">
+	<summary>
+ Los objetos de valor son objetos que no tienen identidad o no son entidades específicos del dominio.
+ Por ejemplo el objeto dirección.
+ Mas información:
+ https://docs.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/implement-value-objects
+ </summary>
+</member><member name="P:Domain.ValueObjects.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Domain.ValueObjects.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Domain.ValueObjects.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

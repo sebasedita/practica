@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Infra.Common
+</name>
+</assembly>
+<members>
+<member name="F:Infra.Common.Positions.GeneralManager">
+	<summary>
+ Esta estructura almacena los cargos del usuario, escencial para
+ realizar las condiciones de los permisos de usuario (Para el ejemplo del proyecto).
+ De igual manera esto es opcional, en su lugar puedes usar
+ una tabla de cargos en la base de datos, puedes hacerlo
+ mediante enumeraciones y el ID de los cargos.
+ </summary>
+</member><member name="P:Infra.Common.ActiveUser.Id">
+	<summary>
+ Responsable de almacenar el ID y Cargo del usuario que inició sesión, 
+ que te permite realizar los permisos de usuario en cualquier capa.
+ Esto es opcional , generalmente no es necesario realizar permisos
+ de usuario en la capa de acceso a datos y dominio.
+ </summary>
+</member><member name="P:Infra.Common.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Infra.Common.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Infra.Common.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

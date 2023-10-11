@@ -1,0 +1,8 @@
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.pdb
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\bin\Debug\Infra.EmailServices.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.Resources.resources
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.vbproj.GenerateResource.Cache
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.dll
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.xml
+D:\RJ Code Advance\Store\VB- FullLogin CRUD SQL -AL\Español\LayeredFullLogin-ES-VB-SQL\Infra.EmailServices\obj\Debug\Infra.EmailServices.pdb
