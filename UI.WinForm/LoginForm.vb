@@ -57,29 +57,27 @@ Public Class LoginForm
     End Sub
 
     Private Sub Login()
-        If String.IsNullOrWhiteSpace(txtUsername.Text) OrElse txtUsername.Text = usernamePlaceholder Then
-            ShowMessage("Ingrese nombre de usuario o correo electrónico")
-            Return
-        End If
+        Dim connectionString As String = ConfigurationManager.ConnectionStrings("OracleDbContext").ConnectionString
+        connectionString = String.Format(connectionString, txtUsername.Text, txtPassword.Text)
 
-        If String.IsNullOrWhiteSpace(txtPassword.Text) OrElse txtPassword.Text = passwordPlaceholder Then
-            ShowMessage("Ingrese contraseña")
-            Return
-        End If
-
-        ' Construye la cadena de conexión en tiempo de ejecución
-        Dim baseConnectionString As String = ConfigurationManager.ConnectionStrings("OracleDbContext").ConnectionString
-        Dim connectionString As String = String.Format("{0}USER ID={1};Password={2}", baseConnectionString, txtUsername.Text, txtPassword.Text)
-
-        Try
-            Using connection As New OracleConnection(connectionString)
-                connection.Open() ' Intenta abrir la conexión
-                MainForm.Show()
+        Using connection As New OracleConnection(connectionString)
+            Try
+                connection.Open()
+                ' Si llegas aquí, la conexión fue exitosa
+                Dim mainForm = New MainForm()
+                mainForm.Show()
                 Me.Hide()
-            End Using
-        Catch ex As Exception
-            ShowMessage("Error: " & ex.Message)
-        End Try
+            Catch ex As OracleException
+                ' Aquí puedes manejar errores específicos de Oracle
+                If ex.Number = 1017 Then
+                    MessageBox.Show("Usuario o contraseña incorrectos.")
+                Else
+                    MessageBox.Show("Error al conectar: " & ex.Message)
+                End If
+            Catch ex As Exception
+                MessageBox.Show("Error: " & ex.Message)
+            End Try
+        End Using
     End Sub
 
     Private Sub Logout()
@@ -102,10 +100,6 @@ Public Class LoginForm
 
 #Region "-> Métodos de Evento"
     Private Sub LoginForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-    End Sub
-
-    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        Login() 'Invocar el método Iniciar sesión.
     End Sub
 
     Private Sub txtPassword_KeyDown(sender As Object, e As KeyEventArgs) Handles txtPassword.KeyDown
@@ -196,5 +190,9 @@ Public Class LoginForm
 
     Private Sub lblDescription_Click(sender As Object, e As EventArgs) Handles lblDescription.Click
 
+    End Sub
+
+    Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
+        Login()
     End Sub
 End Class
